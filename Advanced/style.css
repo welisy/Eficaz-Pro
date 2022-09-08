@@ -386,7 +386,7 @@ body {
     width: 225px;
 }
 .img-foot {
-   margin-top: 50px; 
+    margin-top: 50px; 
 }
 
 .footer-item {
@@ -491,10 +491,9 @@ body {
   /*-------------------- RECAPITULANDO -----------------------*/
 
   #recap h1 {
-   
-   display: flex;
-   justify-content: center;  
-   margin-left: 20px;
+    display: flex;
+    justify-content: center;  
+    margin-left: 20px;
   }
 
   .item {
@@ -507,7 +506,7 @@ body {
   }
 
   .item img {
-     margin-top: -7px;
+    margin-top: -7px;
   }
 
   /*-------------------- FAÇA COMO ELES /RELATOS ---------------------*/
@@ -524,8 +523,8 @@ body {
 
 
   #text-relato {
-   margin-left: 20px;
-   width: auto;
+    margin-left: 20px;
+    width: auto;
   }
 
   #text-relato p {
@@ -618,7 +617,7 @@ body {
 }
 
 
-/*------------------------------ TABLET ----------------------------*/
+/*------------//////////////------------------ TABLET ---------------//////////////-------------*/
 @media (min-width: 768px) and (max-width: 1024px) {
   
   /*------ INICIO ------------*/
@@ -632,7 +631,8 @@ body {
   }
 
   .img-mulher img {
-    display: none;
+    display: flex;
+    margin-left: -270px;
   }
 
   .title {
@@ -669,10 +669,9 @@ body {
   /*--------- RECAPITULANDO ------------*/
 
   #recap h1 {
-   
-   display: flex;
-   justify-content: center;  
-   margin-left: 20px;
+    display: flex;
+    justify-content: center;  
+    margin-left: 20px;
   }
 
   .item {
@@ -685,7 +684,7 @@ body {
   }
 
   .item img {
-     margin-top: -7px;
+    margin-top: -7px;
   }
 
   .quadrado-canto img {
@@ -706,8 +705,8 @@ body {
 
 
   #text-relato {
-   margin-left: 20px;
-   width: auto;
+    margin-left: 20px;
+    width: auto;
   }
 
   #text-relato p {
@@ -722,10 +721,6 @@ body {
 
   
 /*----------------------- CERTIFICADO -------------------------*/
-
-  #certif {
-   
-  }
 
   .certbtn {
     margin-left: 20px;
@@ -774,9 +769,7 @@ body {
     margin-top: 45px;
   }
 
- 
   /*-------------------------- FOOTER ----------------------*/
-
 
   #footer img {
     width: 290px;
