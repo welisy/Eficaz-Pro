@@ -1,0 +1,616 @@
+@font-face {
+    font-family: 'Sora-Bold';
+    src: url(./fontes/Sora-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Sora-ExtraBold';
+    src: url(./fontes/Sora-ExtraBold.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sora-Extralight';
+    src: url(./fontes/Sora-ExtraLight.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sora-Light';
+    src: url(./fontes/Sora-Light.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sora-Regular';
+    src: url(./fontes/Sora-Regular.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sora-SemiBold';
+    src: url(./fontes/Sora-SemiBold.ttf) format('truetype');
+}
+
+
+@font-face {
+    font-family: 'Sora-Thin';
+    src: url(./fontes/Sora-Thin.ttf) format('truetype');
+}
+
+body {
+    height: 100vh;
+    background: #e8e8e8; 
+}
+
+/*------------ INICIO ADVANCED --------------*/
+
+#details {
+    background-color: #fdc808;
+    background: url(./imgs/BACKGROUND\ PRO.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img-mulher img { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 640px;
+    top: 97px;   
+    width: 500px; 
+}
+
+.purble-title {
+  color: #390578;
+  letter-spacing: 10px;
+}
+
+.title {
+    font-family: 'Sora-Bold' !important;
+    color: #fff;
+    font-size: 30px;
+}
+
+#logo img {
+   width: 240px;
+   margin-left: 80px;
+}
+
+#first-text {
+    margin-left: 100px;
+}
+
+#first-text p {
+    line-height: 19px;
+}
+
+.sejabtn {
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 9px 9px;
+    font-size: 10px;
+    font-family: 'Sora-Bold' !important;
+    background-image: linear-gradient(to right, #390578, #853fcb );
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+    margin-left: 800px;
+    
+}
+
+.sejabtn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+
+.querobtn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+    
+
+.querobtn {
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 9px 9px;
+    font-size: 10px;
+    font-family: 'Sora-Bold' !important;
+    background-image: linear-gradient(to right, #480578, #b64cf3 );
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+    
+}
+
+
+/*------------ RECAPITULANDO  --------------*/
+
+.item {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    height: 150px;
+    width: 183px;
+    margin-bottom: 100px;
+}
+
+.item p {
+    color: #616060;
+    font-family: 'Sora-Regular';
+    text-align: center !important;
+    font-size: 13px;
+    
+}
+
+.item img {
+    height: 50px;
+    margin-top: -30px;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: all 0.6s;
+    box-shadow: 0 0 1em #480578;
+
+}
+
+#recap {
+    background: url(./imgs/bg-purple2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
+    position: relative;
+}
+
+#recap h1 {
+    text-align: center;
+    margin-top: -100px;
+}
+
+.quadrado-canto img {
+    width: 150px;
+    margin-left: -117px;
+    margin-top: -5px;
+}
+
+/*------------ FAÇA COMO ELES /RELATOS --------------*/
+
+#relatos {
+    background: #e8e8e8;
+    overflow: hidden;   
+}
+
+#relatos h1 {
+    font-family: 'Sora-Bold' !important;
+    color: #878383;
+    font-size: 30px;
+}
+
+#title-rel {
+    display: flex;
+    justify-content: right;
+}    
+
+
+#text-relato {
+    border-radius: 12px; 
+    background: #ffffff;  
+    display: flex;
+    align-items: center;
+    width: 370px;
+    height: 245px;
+    box-shadow: 0 0 1em 0 #a6a6a6;
+    margin-bottom: 50px;
+    z-index: 9999;
+    margin-left: 180px;
+    margin-top: 100px; 
+    position: absolute;
+}
+
+#text-relato p {
+    font-size: 13px;
+    font-family: 'Sora-Regular';
+    color: #646464;
+}
+
+#img-relato {
+    background-color: #ffb300;
+    border-radius: 55px 5px 5px 55px;
+    z-index: 1;
+    position: relative;
+    background-image: url(./imgs/icons/enfeites/ylw-white-orange-faca.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    left: 350px;
+    height: 450px;
+}
+
+#relatos-align {
+    display: flex;
+    align-items: center;
+}
+
+
+/*------------ CERTIFICADO --------------*/
+
+#certif {
+    background: url(./imgs/bg-purple2.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9999;
+}
+
+.certbtn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+    
+
+.certbtn {
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 9px 9px;
+    font-size: 10px;
+    font-family: 'Sora-Bold' !important;
+    background-image: linear-gradient(to right, #f8af05, #8640af );
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+}
+
+.text-certif {
+    color: #e8e8e8;
+}
+
+
+#certif .container {
+    display: flex;
+}
+
+#text-certif p {
+    border-radius: 12px; 
+    background: #7b5590af;  
+    font-size: 14px;
+    font-family: 'Sora-Regular';
+    color: #ffffffd5;
+    padding: 109px 60px;
+    width: 440px;
+    height: 270px;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+#img-certif img {
+    width: 275px;
+    margin-top: 30px;
+}
+
+/*------------ COMO FUNCIONA --------------*/
+#howorks {
+    background: #e8e8e8;
+}
+
+.title-how h1 {
+    font-family: 'Sora-Bold' !important;
+    color: #949292;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+#cardworks .item {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    height: 190px;
+    width: 183px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 1em #ababab;
+}
+
+#cardworks .item p {
+    color: #515151;
+    font-family: 'Sora-Regular';
+    text-align: center !important;
+    font-size: 13px;
+    
+}
+
+#cardworks .item img {
+    height: 55px;
+    margin-top: -20px;
+    align-items: center;
+}
+
+#cardworks .item:hover {
+    transform: scale(1.1);
+    transition: all 0.6s;
+    box-shadow: 0 0 1em #77727a;
+
+}
+
+#cardworks {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.howbtn:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+    
+
+.howbtn {
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 9px 9px;
+    font-size: 10px;
+    font-family: 'Sora-Bold' !important;
+    background-image: linear-gradient(to right, #480578, #b64cf3 );
+    color: #fff;
+    letter-spacing: 5px;
+    border: none;
+    margin-bottom: 80px;
+    margin-top: -50px;
+}
+
+#howbtn {
+    display: flex;
+    justify-content: center;
+}
+
+/*------------ FOOTER --------------*/
+#footer {
+    background: #fff;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+}
+
+#footer img {
+    width: 225px;
+}
+.img-foot {
+   margin-top: 50px; 
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: -40px;
+}
+
+.footer-item  a {
+    color: rgb(119, 119, 119);
+    font-family: 'Sora-Regular';
+    text-align: left !important;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.footer-item h5 {
+    color:  #686868;
+    font-weight: bold;
+}
+
+.footer-item:nth-child(2) {
+    width: 400px;
+} 
+
+.content-footer {
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.content-footer ul li {
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.content-footer ul li a:hover {
+    color: rgb(149, 90, 0);
+} 
+
+.img-dec img {
+    padding-left: none;
+    margin-left: -137px;
+    margin-top: 120px;
+}
+
+
+/* ------------------------------ MOBILE RESPONSIVE-----------------------------------*/
+
+@media (min-width: 320px) and (max-width: 767.98px) {
+  
+    /*------ INICIO ------------*/
+    html {
+      font-size: 50%;
+    }    
+  
+    #logo img {
+      width: 240px;
+      margin-left: 60px;
+    }
+  
+    .img-mulher img {
+      display: none;
+    }
+  
+    .title {
+      margin-top: 30px;
+      margin-left: -24%;
+      
+    }
+  
+    #first-text p {
+      font-size: 15px;
+      margin-left: -24%;
+      font-weight: 500;
+    }
+  
+    .sejabtn {
+      display: none;
+    }
+  
+    #details .querobtn {
+      margin-left: -45px;
+    }
+  
+    .querobtn {
+      margin-bottom: 25px;
+      margin-top: 20px;
+      width: 248px;
+      font-size: 10px;
+    } 
+  
+    #footer {
+      display: block;
+    }
+  
+    /*-------------------- RECAPITULANDO -----------------------*/
+  
+    #recap h1 {
+     
+     display: flex;
+     justify-content: center;  
+     margin-left: 20px;
+    }
+  
+    .item {
+      margin-left: 80px;
+      margin-bottom: 15px;
+    }
+  
+    .item p {
+      font-size: 15px;
+    }
+  
+    .item img {
+       margin-top: -7px;
+    }
+  
+    /*-------------------- FAÇA COMO ELES /RELATOS ---------------------*/
+  
+    #relatos h1 button {
+      margin-left: 20px;
+      
+    }
+  
+    #title-rel {
+      margin-left: -70px;
+      margin-top: 30px;
+    }    
+  
+  
+    #text-relato {
+     margin-left: 20px;
+     width: auto;
+    }
+  
+    #text-relato p {
+      font-size: 14px;
+    }
+  
+    #img-relato {
+      margin-left: -195px;
+      background-size: 604px;
+      background-position-x: center;
+    }
+  
+    
+  /*----------------------- CERTIFICADO -------------------------*/
+  
+    .certbtn {
+      margin-left: 20px;
+      width: 248px;
+      font-size: 10px;
+    }
+  
+    .text-certif h1{
+      font-size: 40px;
+      margin-left: 20px;
+    }
+  
+    .text-certif p {
+      margin-left: 20px;
+      font-size: 16px;
+    }
+  
+    #text-certif p {
+      width: 314px;
+      height: 200px;
+      margin-left: 17px;
+    }
+  
+    #img-certif img {
+      width: 230px;
+      margin-left: 60px;
+    }
+  
+    /*----------------------- COMO FUNCIONA ------------------------*/
+  
+    #cardworks .item {
+      margin-bottom: 15px;
+    }
+  
+    #cardworks .item p {
+      font-size: 15px;
+    }
+  
+    #cardworks .item img {
+      margin-top: 3px;
+    }
+  
+    .howbtn {
+      width: 248px;
+      font-size: 10px;
+      margin-top: 45px;
+    }
+  
+    /*-------------------------- FOOTER ----------------------*/
+  
+  
+    #footer img {
+      width: 290px;
+      margin-top: -30px;
+    }
+  
+  
+    .footer-item {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+      margin-left: 52px;
+      margin-top: 20px;
+    
+    }
+  
+    .content-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: baseline;
+    }
+  
+    .img-dec img {
+      display: none;
+    }
+  }
+  
+  
