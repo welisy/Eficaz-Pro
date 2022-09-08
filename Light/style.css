@@ -46,7 +46,6 @@ body {
 /*------------ INICIO ADVANCED --------------*/
 
 #details {
-    background-color: #fdc808;
     background: url(./imgs/bg-1-purple.png);
     background-position: center top;
     background-repeat: no-repeat;
@@ -73,8 +72,8 @@ body {
 }
 
 #logo img {
-   width: 240px;
-   margin-left: 80px;
+    width: 240px;
+    margin-left: 80px;
 }
 
 #first-text {
@@ -402,7 +401,7 @@ body {
     width: 225px;
 }
 .img-foot {
-   margin-top: 50px; 
+    margin-top: 50px; 
 }
 
 .footer-item {
@@ -458,179 +457,179 @@ body {
 /* ------------------------------ MOBILE RESPONSIVE-----------------------------------*/
 
 @media (min-width: 320px) and (max-width: 767.98px) {
-  
-    /*------ INICIO ------------*/
+
+/*------ INICIO ------------*/
     html {
-      font-size: 50%;
+        font-size: 50%;
     }    
-  
+
     #logo img {
-      width: 240px;
-      margin-left: 60px;
+        width: 240px;
+        margin-left: 60px;
     }
-  
+
     .img-homem img {
-      display: none;
+        display: none;
     }
-  
+
     .title {
-      margin-top: 30px;
-      margin-left: -24%;
-      
+        margin-top: 30px;
+        margin-left: -24%;
+        
     }
-  
+
     #first-text p {
-      font-size: 15px;
-      margin-left: -24%;
-      font-weight: 500;
+        font-size: 15px;
+        margin-left: -24%;
+        font-weight: 500;
     }
-  
+
     .sejabtn {
-      display: none;
+        display: none;
     }
-  
+
     #details .querobtn {
-      margin-left: -45px;
+        margin-left: -45px;
     }
-  
+
     .querobtn {
-      margin-bottom: 25px;
-      margin-top: 20px;
-      width: 248px;
-      font-size: 10px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        width: 248px;
+        font-size: 10px;
     } 
-  
+
     #footer {
-      display: block;
+        display: block;
     }
-  
+
     /*-------------------- RECAPITULANDO -----------------------*/
-  
+
     #recap h1 {
-     
-     display: flex;
-     justify-content: center;  
-     margin-left: 20px;
+        
+        display: flex;
+        justify-content: center;  
+        margin-left: 20px;
     }
-  
+
     .item {
-      margin-left: 80px;
-      margin-bottom: 15px;
+        margin-left: 80px;
+        margin-bottom: 15px;
     }
-  
+
     .item p {
-      font-size: 15px;
+        font-size: 15px;
     }
-  
+
     .item img {
-       margin-top: -7px;
+        margin-top: -7px;
     }
-  
+
     /*-------------------- FAÇA COMO ELES /RELATOS ---------------------*/
-  
+
     #relatos h1 button {
-      margin-left: 20px;
-      
+        margin-left: 20px;
+        
     }
-  
+
     #title-rel {
-      margin-left: -70px;
-      margin-top: 30px;
+        margin-left: -70px;
+        margin-top: 30px;
     }    
-  
-  
+
+
     #text-relato {
-     margin-left: 20px;
-     width: auto;
+        margin-left: 20px;
+        width: auto;
     }
-  
+
     #text-relato p {
-      font-size: 14px;
+        font-size: 14px;
     }
-  
+
     #img-relato {
-      margin-left: -195px;
-      background-size: 604px;
-      background-position-x: center;
+        margin-left: -195px;
+        background-size: 604px;
+        background-position-x: center;
     }
-  
-    
-  /*----------------------- CERTIFICADO -------------------------*/
-  
+
+
+    /*----------------------- CERTIFICADO -------------------------*/
+
     .certbtn {
-      margin-left: 20px;
-      width: 248px;
-      font-size: 10px;
+        margin-left: 20px;
+        width: 248px;
+        font-size: 10px;
     }
-  
+
     .text-certif h1{
-      font-size: 40px;
-      margin-left: 20px;
+        font-size: 40px;
+        margin-left: 20px;
     }
-  
+
     .text-certif p {
-      margin-left: 20px;
-      font-size: 16px;
+        margin-left: 20px;
+        font-size: 16px;
     }
-  
+
     #text-certif p {
-      width: 314px;
-      height: 200px;
-      margin-left: 17px;
+        width: 314px;
+        height: 200px;
+        margin-left: 17px;
     }
-  
+
     #img-certif img {
-      width: 230px;
-      margin-left: 60px;
+        width: 230px;
+        margin-left: 60px;
     }
-  
+
     /*----------------------- COMO FUNCIONA ------------------------*/
-  
+
     #cardworks .item {
-      margin-bottom: 15px;
+        margin-bottom: 15px;
     }
-  
+
     #cardworks .item p {
-      font-size: 15px;
+        font-size: 15px;
     }
-  
+
     #cardworks .item img {
-      margin-top: 3px;
+        margin-top: 3px;
     }
-  
+
     .howbtn {
-      width: 248px;
-      font-size: 10px;
-      margin-top: 45px;
+        width: 248px;
+        font-size: 10px;
+        margin-top: 45px;
     }
-  
+
     /*-------------------------- FOOTER ----------------------*/
-  
-  
+
+
     #footer img {
-      width: 290px;
-      margin-top: -30px;
+        width: 290px;
+        margin-top: -30px;
     }
-  
-  
+
+
     .footer-item {
-      display: flex;
-      flex-direction: column;
-      align-items: baseline;
-      margin-left: 52px;
-      margin-top: 20px;
-    
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: 52px;
+        margin-top: 20px;
+
     }
-  
+
     .content-footer {
-      display: flex;
-      flex-direction: column;
-      align-items: baseline;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
-  
+
     .img-dec img {
-      display: none;
+        display: none;
     }
-  }
-  
-  
+}
+
+
